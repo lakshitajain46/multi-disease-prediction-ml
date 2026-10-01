@@ -93,3 +93,13 @@ multi-disease-prediction-ml/
 ## Note
 
 This project is an academic/internship machine-learning project intended for educational and research purposes. The predictions should not be interpreted as clinical diagnoses.
+## Prediction Results
+
+### Diabetes Prediction
+![Diabetes Prediction Result](diabetes_prediction_result.png)
+
+### Heart Disease Prediction
+![Heart Disease Prediction Result](heart_disease_prediction_result.png)
+
+### Chronic Kidney Disease Prediction
+![Kidney Disease Prediction Result](kidney_disease_prediction_result.png)
