@@ -103,3 +103,76 @@ This project is an academic/internship machine-learning project intended for edu
 
 ### Chronic Kidney Disease Prediction
 ![Kidney Disease Prediction Result](kidney_disease_prediction_result.png)
+## Methodology
+
+The project follows separate machine-learning pipelines for each disease prediction task.
+
+### 1. Diabetes Prediction
+
+The diabetes dataset is prepared through data preprocessing and feature scaling. A Support Vector Machine (SVM) classifier is then trained and evaluated on the processed data.
+
+**Pipeline:**
+
+```text
+Diabetes Dataset
+       ↓
+Data Preprocessing
+       ↓
+Feature Scaling
+       ↓
+Train-Test Split
+       ↓
+SVM Classifier
+       ↓
+Prediction & Evaluation
+```
+
+### 2. Heart Disease Prediction
+
+The heart disease dataset is preprocessed and used to develop classification models. Logistic Regression and Random Forest approaches are considered for prediction and performance evaluation.
+
+**Pipeline:**
+
+```text
+Heart Disease Dataset
+       ↓
+Data Preprocessing
+       ↓
+Feature Preparation
+       ↓
+Train-Test Split
+       ↓
+Classification Models
+       ↓
+Prediction & Evaluation
+```
+
+### 3. Chronic Kidney Disease Prediction
+
+The kidney disease dataset undergoes missing-value handling and categorical feature encoding before model training. A Random Forest classifier is used for prediction.
+
+**Pipeline:**
+
+```text
+Kidney Disease Dataset
+       ↓
+Missing-Value Handling
+       ↓
+Categorical Encoding
+       ↓
+Train-Test Split
+       ↓
+Random Forest
+       ↓
+Prediction & Evaluation
+```
+
+## Evaluation
+
+The models are evaluated using test-set performance. The reported test accuracies are:
+
+* **Diabetes:** 77.27%
+* **Heart Disease:** 88.52%
+* **Chronic Kidney Disease:** 98.75%
+
+These values correspond to the evaluations implemented in the project notebook.
