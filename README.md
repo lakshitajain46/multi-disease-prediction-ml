@@ -176,3 +176,18 @@ The models are evaluated using test-set performance. The reported test accuracie
 * **Chronic Kidney Disease:** 98.75%
 
 These values correspond to the evaluations implemented in the project notebook.
+## Limitations
+
+* The project evaluates machine-learning models on existing structured datasets and does not represent clinical validation.
+* Model performance may depend on the characteristics, quality, and class distribution of the datasets used.
+* Test accuracy alone does not provide a complete assessment of model performance, particularly for healthcare applications.
+
+## Future Work
+
+Possible extensions of this project include:
+
+* Evaluating additional machine-learning and ensemble methods.
+* Using additional evaluation metrics such as precision, recall, F1-score and ROC-AUC.
+* Investigating feature selection and hyperparameter optimization to improve model performance.
+* Evaluating the models on independent datasets to assess their generalizability.
+* Exploring explainable AI techniques to better understand model predictions.
